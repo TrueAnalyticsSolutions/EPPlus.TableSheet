@@ -3,10 +3,34 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <RootNamespace>OfficeOpenXml.TableSheet</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Trais McAllister;</Authors>
+    <Company>True Analytics Manufacturing Solutions, LLC</Company>
+    <Description>Provides an extension to the EPPlus library (4.5.3.3) to enable swift development of formatted tables.</Description>
+    <Copyright>True Analytics Manufacturing Solutions, LLC</Copyright>
+    <PackageIcon>TAMS-Icon-Blue_x256.png</PackageIcon>
+    <PackageIconUrl />
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/TrueAnalyticsSolutions/EPPlus.TableSheet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>EPPlus;Excel;TAMS;Workbook Table;</PackageTags>
+    <PackageReleaseNotes>Initial release of the abstract extensions to EPPlus for creating formatted tables.</PackageReleaseNotes>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="EPPlus" Version="4.5.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="TAMS-Icon-Blue_x256.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
