@@ -16,6 +16,8 @@
     <PackageTags>EPPlus;Excel;TAMS;Workbook Table;</PackageTags>
     <PackageReleaseNotes>Initial release of the abstract extensions to EPPlus for creating formatted tables.</PackageReleaseNotes>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Product>EPPlus.TableSheet</Product>
+    <PackageId>TAMS.EPPlus.TableSheet</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
