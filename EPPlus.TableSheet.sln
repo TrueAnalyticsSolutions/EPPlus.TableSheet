@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPPlus.TableSheet", "EPPlus.TableSheet\EPPlus.TableSheet.csproj", "{80CF6350-724B-456E-97A8-6740234949DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80CF6350-724B-456E-97A8-6740234949DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80CF6350-724B-456E-97A8-6740234949DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80CF6350-724B-456E-97A8-6740234949DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80CF6350-724B-456E-97A8-6740234949DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81E5165D-360B-41B8-A8E7-8E894373CD3F}
+	EndGlobalSection
+EndGlobal
