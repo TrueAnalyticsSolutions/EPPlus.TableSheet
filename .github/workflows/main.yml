@@ -43,8 +43,8 @@ jobs:
         uses: actions/download-artifact@v1
         with:
           name: nupkg
-	  			path: ${{ github.workspace }}/package
-          
+	  path: ${{ github.workspace }}/package
+
       - name: Setup NuGet
         uses: NuGet/setup-nuget@main
         with:
@@ -55,7 +55,7 @@ jobs:
         run: dotnet nuget push ${{ github.workspace }}\package\*.nupkg -k ${{ secrets.NUGETORG_API_KEY }} -s https://nuget.org --skip-duplicate
 
       - name: Add GitHub Package Registry Source
-				run: dotnet nuget add source --username ${{ github.actor }} --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name GPR "https://nuget.pkg.github.com/TrueAnalyticsSolutions/index.json"
+      	run: dotnet nuget add source --username ${{ github.actor }} --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name GPR "https://nuget.pkg.github.com/TrueAnalyticsSolutions/index.json"
 
       - name: Push to GitHub Packages
         run: dotnet nuget push ${{ github.workspace }}\package\*.nupkg -Source "GPR" -SkipDuplicate
