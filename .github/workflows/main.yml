@@ -43,7 +43,7 @@ jobs:
         uses: actions/download-artifact@v1
         with:
           name: nupkg
-	  path: ${{ github.workspace }}/package
+          path: ${{ github.workspace }}/package
 
       - name: Setup NuGet
         uses: NuGet/setup-nuget@main
